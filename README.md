@@ -1,6 +1,23 @@
-# alborz_assistant
-An Ai assistant for generating educational content 
-For running this project take the following steps:\n
-1.Run Docker\n
-2.docker build -t myapp1:latest  .\n
-3.docker run -d --name myapp1-container -p 8080:8080 myapp1:latest
+# 🤖 Alborz Assistant
+
+**Alborz Assistant** is an AI-powered assistant for generating **educational content**.
+
+
+---
+
+## 🚀 Features
+
+- Generate educational content with AI
+- Easy-to-deploy Docker setup
+- Fast and lightweight
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally using Docker:
+
+1. **Run Docker** (make sure Docker is installed and running)
+2. **Build the Docker image**
+```bash
+docker build -t myapp1:latest .
