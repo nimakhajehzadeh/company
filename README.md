@@ -19,5 +19,5 @@ Follow these steps to run the project locally using Docker:
 
 1. **Run Docker** (make sure Docker is installed and running)
 2. **Build the Docker image**
-```bash
-docker build -t myapp1:latest .
+3. **docker build -t myapp1:latest .**
+4. **docker run -d --name myapp1-container -p 8080:8080 myapp1:latest**
